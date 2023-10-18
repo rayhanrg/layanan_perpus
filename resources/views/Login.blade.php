@@ -6,7 +6,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>WIOS</title>
 </head>
-<body>
+<body class="overflow-hidden">
     <header class="flex justify-center items-center h-16 bg-gray-400">
     <img src="img/bg.png" alt="Logo Widyatama" class="w-88 h-12 mr-2">
         <h1 class="text-black text-sm font-bold text">WIDYATAMA INFORMASI ONLINE SISTEM</h1>

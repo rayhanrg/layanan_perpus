@@ -16,3 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/bebaspustaka', function () {
+    return view('bebaspustaka');
+});
+Route::get('/bp-cuti&undur', function () {
+    return view('bp-cuti&undur');
+});
+Route::get('/bp-transaksi', function () {
+    return view('bp-transaksi');
+});
+Route::get('/bp-wisuda&ijazah', function () {
+    return view('bp-wisuda&ijazah');
+});
+Route::get('/bp-wisuda&ijazah2', function () {
+    return view('bp-wisuda&ijazah2');
+});

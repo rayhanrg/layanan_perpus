@@ -46,9 +46,7 @@
     </nav>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
-<br>
-
-<h2 class="text-2xl font-extrabold dark:text-gray-900 ml-5 flex items-center">Penyerahan Laporan Kerja Praktek</h2>
+<h1 class="p-5 text-3xl font-semibold text-gray-900 dark:text-black">Penyerahan Laporan Kerja Praktek</h1><br>
 <br>
 
 <!-- Input Field -->
@@ -70,7 +68,7 @@
             <label for="program_studi" class="kotak mb-2 text-sm font-medium text-gray-900 dark:text-black">Program Studi</label>
             <div class="flex">
                 <label for="program_studi" class="sr-only">Program Studi</label>
-                <select id="program_studi" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <select id="program_studi" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
                     <option selected>Program Studi</option>
                     <option value="">D3-Manajemen</option>
                     <option value="">D3-Akuntansi</option>
@@ -123,7 +121,7 @@
 </div>
 <br>
 <div class="mt-5 px-5">
-    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-blue-800">Next</button>
+  <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-blue-800">Submit</button>
 </div>
 
 <!-- Footer -->
@@ -131,7 +129,9 @@
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-white">© 2023 <a>Layanan Perpustakaan Univeristas Widyatama</a>. All Rights Reserved.</span>
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"></ul>
-        </div>
+    </div>
 </footer>
+
+
 </body>
 </html>

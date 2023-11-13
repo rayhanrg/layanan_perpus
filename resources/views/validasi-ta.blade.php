@@ -94,6 +94,13 @@
                     <input id="dropzone-file" type="file" class="hidden" />
                 </label>
             </div>
+            <div class="grid gap-6 mb-6 p-5">
+                <div>
+                    <label for="Email" class="kotak  mb-2 text-sm font-medium text-gray-900 dark:text-black">Verifikasi Link Jurnal</label>
+                    <input type="text" id="Email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Silahkan isi dengan tautan link artikel anda ! " required>
+                </div>
+            </div>
+            </div>
             <div>
                 <p class="ml-5 mb-5 text-base font-semibold text-black dark:text-black">Kelengkapan Skripsi Berupa :</p>
                 <p class="ml-5 text-base font-normal text-black dark:text-black">1. Soft File TA/Skripsi/Tesis</p>

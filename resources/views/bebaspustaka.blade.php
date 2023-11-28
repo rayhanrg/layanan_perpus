@@ -8,7 +8,7 @@
     <style type="text/tailwindcss"></style>
 </head>
 <body>
-<nav class="border-gray-200 bg-gray-50 dark:bg-gradient-to-b from-blue-600 to-white dark:border-gray-700">
+<nav class="border-gray-50 bg-gradient-to-b from-blue-600 to-white dark:border-gray-700">
     <div class="flex flex-auto items-center justify-between m-0 p-6">
         <a href="#" class="flex place-items-center">
             <img src="/image/logoutama.png" class="Logo h-12 mr-1" alt="Widyatama Logo" />
@@ -23,21 +23,21 @@
     <div class="grid gap-6 mb-6 p-5 md:grid-cols-2">
         <div>
            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900">Email</label>
-           <input type="text" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
+           <input type="text" id="email" class="bg-gray-400 border border-gray-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
         </div>
         <div>
            <label for="nama" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900">Nama Lengkap</label>
-           <input type="text" id="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
+           <input type="text" id="nama" class="bg-gray-400 border border-gray-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
         </div>
         <div>
            <label for="npm" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900">NPM</label>
-           <input type="text" id="npm" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
+           <input type="text" id="npm" class="bg-gray-400 border border-gray-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
         </div>
         <div>
         <label for="program_studi" class="kotak mb-2 text-sm font-medium text-gray-900 dark:text-black">Program Studi</label>
         <div class="flex">
             <label for="program_studi" class="sr-only">Program Studi</label>
-            <select id="program_studi" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+            <select id="program_studi" class="bg-gray-400 border border-gray-800 text-gray-900 text-sm rounded-lg border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
                 <option selected>Program Studi</option>
                 <option value="">D3-Manajemen</option>
                 <option value="">D3-Akuntansi</option>
@@ -50,6 +50,7 @@
                 <option value="">S1-Akuntansi</option>
                 <option value="">S1-Multimedia</option>
                 <option value="">S1-Bahasa Jepang</option>
+                <option value="">S1-Bahasa Inggris</option>
                 <option value="">S1-Teknik Industri</option>
                 <option value="">S1-Teknik Informatika</option>
                 <option value="">S1-Sistem Informasi</option>

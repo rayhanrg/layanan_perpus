@@ -9,7 +9,7 @@
     </style>
 </head>
 <body>
-    <nav class="border-gray-50 bg-gray-50 dark:bg-gradient-to-b from-blue-600 to-white dark:border-gray-500">
+    <nav class="border-gray-50 bg-gradient-to-b from-blue-600 to-white dark:border-gray-500">
         <div class="flex flex-auto items-center justify-between m-0 p-6">
             <a href="#" class="flex place-items-center">
                 <img src="/image/logoutama.png" class="Logo h-12 mr-1" alt="Widyatama Logo" />
@@ -30,7 +30,7 @@
                     <label for="petugas" class="kotak mb-2 text-sm font-medium text-gray-900 dark:text-black">Petugas yang Menerima</label>                
                     <div class="flex mb-4">
                         <label for="Petugas_yang_menerima" class="sr-only">Petugas yang Menerima</label>
-                        <select id="Petugas" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                        <select id="Petugas" class="bg-gray-400 border border-gray-800 text-gray-900 text-sm rounded-lg border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
                             <option selected>Petugas yang Menerima</option>
                             <option value="HERLAN">HERLAN RUSDIANTO</option>
                             <option value="ABIDIN">ABIDIN</option>
@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <label for="tgl_pengajuan" class="kotak mb-2 text-sm font-medium text-gray-900 dark:text-black">Tanggal Pengajuan Bebas Pustaka</label>
-                    <input type="date" id="tahun_terbit" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
+                    <input type="date" id="tahun_terbit" class="bg-gray-400 border border-gray-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>
                 </div>
                 <button type="submit" class="mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-amber-400 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-cyan-400 dark:focus:ring-blue-800">Submit</button>           
             </div>

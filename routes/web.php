@@ -18,4 +18,6 @@ Route::get('/', function () {
 });
 Route::get('/admin-user', function () {
     return view('admin-user');
+Route::get('/admin-bebaspustaka', function () {
+    return view('admin-bebaspustaka');
 });

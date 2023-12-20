@@ -18,4 +18,15 @@ Route::get('/', function () {
 });
 Route::get('/admin-sumbanganbuku', function () {
     return view('admin-sumbanganbuku');
+Route::get('/sumbangan-buku', function () {
+    return view('sumbangan-buku');
+});
+Route::get('/validasi-ta', function () {
+    return view('validasi-ta');
+Route::get('/admin-lta', function () {
+    return view('admin-lta');
+Route::get('/admin-user', function () {
+    return view('admin-user');
+Route::get('/admin-bebaspustaka', function () {
+    return view('admin-bebaspustaka');
 });

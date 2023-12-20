@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/kp', function () {
+    return view('kp');
+});
+
 Route::get('/bebaspustaka', function () {
     return view('bebaspustaka');
 });

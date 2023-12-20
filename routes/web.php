@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/admin-sumbanganbuku', function () {
+    return view('admin-sumbanganbuku');
 Route::get('/sumbangan-buku', function () {
     return view('sumbangan-buku');
 });
